@@ -16,12 +16,25 @@ section {
     margin-top: 60px;
 }
 
+.cursos p {
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+#habilidades svg {
+    margin: 10px;
+}
+
+.sobre p img {
+    margin: 12px;
+}
+
 .font-menu {
     font-size: 17px;
     text-align: center;
 }
 
-.bem-vindo {
+.bem-vindo, #habilidades h1, h2 {
     font-weight: bold;
 }
 
