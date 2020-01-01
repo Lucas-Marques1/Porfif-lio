@@ -28,8 +28,8 @@ section {
     margin: 10px;
 }
 
-#habilidades, #interesses {
-    padding-top: 60px; 
+#habilidades, #interesses, #contato {
+    padding-top: 62px;
 }
 
 #interesses p {
@@ -55,7 +55,7 @@ section {
 
 p {
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 36px;
+    font-size: 20px;
     letter-spacing: -0.02em;
     font-style: italic;
     line-height: 1.15em;
