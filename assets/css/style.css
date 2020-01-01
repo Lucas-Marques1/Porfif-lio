@@ -1,7 +1,10 @@
 body {
+    font: 100% "Armata", Arial, Helvetica, sans-serif;
     position: relative;
     z-index: 1;
 }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; display: block; font-weight: normal; }
 
 header {
     width: 100%;
@@ -46,8 +49,17 @@ section {
     text-align: center;
 }
 
-.bem-vindo, #habilidades h1, h2 {
-    font-weight: bold;
+.bem-vindo, #habilidades h1, h2, #sobre h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    font-style: italic;
+    line-height: 1.15em;
+    margin: 0 0 1.35em 0;
 }
 
 @media (min-width: 768px) {
