@@ -62,7 +62,8 @@
         <meta property="og:url" content="https://lucas-marques1.github.io/Portif-lio/">
         <meta property="og:site_name" content="Lucas Marques">
         <meta property="og:type" content="website">
-    
+
+
     </head>
 <body class=" scrollspy-example bg-dark" data-spy="scroll" data-offset="70" data-target="#navbar-expand-sm" data-offset="0" data-target="#navbar-expand-sm">
 
@@ -290,7 +291,7 @@
 
             <div class="row justify-content-md-center">
                 <div class="col-md-6 col-sm-12">
-                    <form action="" method="post">
+                    <form action="assets/js/index.js" method="post">
                         <div class="form-group">
                             <label for="name">Nome *</label>
                             <input type="text" id="name" name="name" class="form-control valida">
@@ -308,7 +309,7 @@
                             <textarea name="msg" id="msg" class="form-control valida" cols="30" rows="10"></textarea>
                         </div>
                         <div class="clearfix mb-5">
-                            <a class="btn btn-primary float-right disabled" type="submit"> Enviar </a>
+                            <a class="btn btn-primary float-right text-dark" id="send-email" type="submit"> Enviar </a>
                         </div>
                     </form>
                 </div>
@@ -327,8 +328,14 @@
         <h2 class="text-center text-dark"><span class="text-danger">L</span>ucas <span class="text-danger">M</span>arques</h2>
     </footer>
 
-
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- <script data-main="assets/scripts/main" src="assets/scripts/require.js"></script> -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
     <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+    <!-- SecureToken: "9802c600-1d80-4200-87c9-fe2b9449f1ff" -->
+
+    <!-- var mandrill = require('node-mandrill')('43308D49868AA13F94E25E82215A2E8796AC37569FF48A25C21119BB22473674EDAAA372DF5E1E9927CD47F67B20DB5A'); -->
 </body>
 </html>

@@ -50,15 +50,15 @@ section {
 }
 
 .bem-vindo, #habilidades h1, h2, #sobre h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "armata","Times New Roman", Times, serif;
 }
 
 p {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
-    letter-spacing: -0.02em;
-    font-style: italic;
-    line-height: 1.15em;
+    letter-spacing: -0.01em;
+    /* font-style: italic; */
+    line-height: 1.30em;
     margin: 0 0 1.35em 0;
 }
 
