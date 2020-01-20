@@ -11,8 +11,17 @@ header {
     z-index: 10;
 }
 
+
 section {
     width: 100%;
+}
+
+#sobre {
+    background-image: url('../images/javascript.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sobre {
@@ -24,12 +33,31 @@ section {
     padding-top: 10px;
 }
 
+#habilidades {
+    margin-top: -32px;
+}
+
+#habilidades, footer {
+    background-image: radial-gradient(circle, #3490dc00,  #343a40, black);
+}
+
+
 #habilidades svg {
     margin: 10px;
 }
 
 #habilidades, #interesses, #contato {
     padding-top: 62px;
+}
+
+#sobre img {
+    border-radius: 40px;
+    margin-bottom: 5px;
+}
+
+#interesses, #contato, .title-dev, .description-dev {
+    /* background-image: radial-gradient(circle, #e1e6eb,  #343a40, black); */
+    background-image: linear-gradient(to right, rgba(172, 166, 166, 0.062), rgb(0, 0, 0));
 }
 
 #interesses p {
@@ -60,6 +88,16 @@ p {
     /* font-style: italic; */
     line-height: 1.30em;
     margin: 0 0 1.35em 0;
+}
+
+footer {
+    margin-top: -48px;
+}
+
+@media (max-width: 340px) {
+    #sobre img {
+        padding-right: 15px;
+    }
 }
 
 @media (min-width: 768px) {
