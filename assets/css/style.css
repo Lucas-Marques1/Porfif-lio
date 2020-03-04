@@ -2,6 +2,7 @@ body {
     font: 100% "Armata", Arial, Helvetica, sans-serif;
     position: relative;
     z-index: 1;
+    background-color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; display: block; font-weight: normal; }
@@ -9,19 +10,53 @@ h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; display: block; font-weight: nor
 header {
     width: 100%;
     z-index: 10;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
-
 section {
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
+
+.titulo-dev {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.title-dev {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 40px !important;
+}
+
+.titulo-dev p {
+    margin: 45px;
+    color: #00b8e4;
+    text-transform: uppercase;
+}
+
+.titulo-dev h1 {
+    margin: 20px;
+}
+
 #sobre {
-    background-image: url('../images/javascript.jpg');
-    height: 100%;
+    padding-top: 100px;
+    background-image: url('../images/laptop1.jpg');
+    /* position: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
 }
 
 .sobre {
@@ -35,12 +70,46 @@ section {
 
 #habilidades {
     margin-top: -32px;
+    color: #FFF;
 }
 
-#habilidades, footer {
-    background-image: radial-gradient(circle, #3490dc00,  #343a40, black);
+#habilidades {
+    /* background-color: #000; */
+    background-image: url("../images/laptop3t.jpg");
+    background-attachment: fixed;
+    /* background-image: radial-gradient(circle, #3490dc00,  #343a40, black); */
 }
 
+.section-main {
+    height: 100vh;
+}
+
+.card {
+    color: #FFF;
+    background-color: #000;
+}
+
+.card-sobre {
+    min-height: 100vh;
+    max-height: 200vh;
+    background-color: #000;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card-interesses {
+    min-height: 100vh;
+    max-height: 230vh;
+    padding: 20px;
+}
+
+body > div.card-sobre > div > div > div:nth-child(1) > p > a:nth-child(2) > img {
+    background-color: #0099;
+}
+
+.description-dev {
+    color: #FFF;
+}
 
 #habilidades svg {
     margin: 10px;
@@ -55,13 +124,10 @@ section {
     margin-bottom: 5px;
 }
 
-#interesses, #contato, .title-dev, .description-dev {
-    /* background-image: radial-gradient(circle, #e1e6eb,  #343a40, black); */
-    background-image: linear-gradient(to right, rgba(172, 166, 166, 0.062), rgb(0, 0, 0));
-}
-
-#interesses p {
-    font-size: 17px;
+#contato {
+    background-image: url("../images/laptop5.jpg");
+    background-attachment: fixed;
+    color: #FFF;
 }
 
 #interesses h2 {
@@ -69,12 +135,21 @@ section {
 }
 
 .sobre p img {
-    margin: 12px;
+    margin: 16px;
 }
 
 .font-menu {
     font-size: 17px;
     text-align: center;
+}
+
+.font-menu ul li a {
+    color: #EEE !important;
+}
+
+.font-menu ul li a:hover {
+    transition: 1.5s;
+    color: #FFF !important;
 }
 
 .bem-vindo, #habilidades h1, h2, #sobre h1 {
@@ -93,6 +168,7 @@ p {
 footer {
     margin-top: -48px;
 }
+
 
 @media (max-width: 340px) {
     #sobre img {

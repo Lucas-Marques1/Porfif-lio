@@ -1,23 +1,25 @@
-let sendEmail = document.querySelector("#send-email");
+window.onscroll = function () {scrollFunction()};
+const digit = document.querySelector(".digit");
 
-sendEmail.addEventListener('click', function(event) {
+function scrollFunction() {
+    let menu = document.querySelector(".style-nav");
+    
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        menu.style.backgroundColor = "#000";    
+    } else {
+        menu.style.backgroundColor = "";    
+    }
+}
 
-    $(document).ready(function() {
-        $(sendEmail).click(function(event) {
-            
-            event.preventDefault();
 
-            let name = $("#name").val();
-            let email = $("#email").val();
-            let subject = $("#assunto").val();
-            let message = $("#msg").val();
-
-            if (name && email && subject && message) {
-                
-                return true;
-
-            }
-            
-        });
+function typeWriter(element) {
+    elementArray = element.innerHTML.split("");
+    element.innerHTML = "";
+    elementArray.forEach((letra, i) => {
+        setTimeout(() => element.innerHTML += letra, 75 * i);
     });
-});
+}
+
+typeWriter(digit);
+
+setInterval(() => { typeWriter(digit) }, 5000);
