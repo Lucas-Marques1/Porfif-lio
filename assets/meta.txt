@@ -1,0 +1,19 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Desenvolvedor web - Programador front-end e back-end de linguagens para internet como HTML, CSS, Javascript, PHP e MySQL para desenvolvimento de sites. Especializado em HTML/CSS/jQuery/React/Bootstrap">
+        <meta name="keywords" content="programador, desenvolvedor, front-end, back-end, web, frontend, backend, html, css, javascript, php, jquery, mysql, sites, websites, são paulo">
+        <meta name="author" content="Lucas Marques - https://marques-10.github.io/">
+        
+        <meta property="og:title" content="Lucas Marques - front-end & back-end developer">
+        <meta property="og:site_name" content="Lucas Marques - front-end & back-end developer">
+        <meta property="og:url" content="https://marques-10.github.io/">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Programador front-end e back-end de linguagens para internet como HTML, CSS, Javascript, PHP e MySQL para desenvolvimento de sites, baseado em São Paulo - SP.">
+         
+        
+ 
+        <meta name="expires" content="Thu, 09 Jan 2020 GMT">
+        <meta http-equiv="last-modified" content="Mon, 22 Aug 2016 17:24:00 GMT">
+ 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="marques.lucas.com.br">
