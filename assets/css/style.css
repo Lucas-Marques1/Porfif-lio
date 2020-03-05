@@ -51,7 +51,6 @@ section {
 #sobre {
     padding-top: 100px;
     background-image: url('../images/laptop1.jpg');
-    /* position: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +80,7 @@ section {
 }
 
 .section-main {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card-sobre img {
@@ -183,5 +182,14 @@ footer {
 @media (min-width: 768px) {
     .nav-button {
         display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #sobre {
+        padding-top: 200px;
+    }
+    .section-main {
+        height: 115vh;
     }
 }
