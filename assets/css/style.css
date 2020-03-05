@@ -52,9 +52,8 @@ section {
     margin: 0;
     padding-top: 100px;
     background-image: url('../images/laptop1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    transform:translatez(0);
+    -webkit-transform:translatez(0);
     background-attachment: fixed;
     box-sizing: border-box;
 }
@@ -77,6 +76,8 @@ section {
     /* background-color: #000; */
     background-image: url("../images/laptop3t.jpg");
     background-attachment: fixed;
+    transform:translatez(0);
+    -webkit-transform:translatez(0);
     /* background-image: radial-gradient(circle, #3490dc00,  #343a40, black); */
 }
 
@@ -131,6 +132,8 @@ body > div.card-sobre > div > div > div:nth-child(1) > p > a:nth-child(2) > img 
 #contato {
     background-image: url("../images/laptop5.jpg");
     background-attachment: fixed;
+    transform:translatez(0);
+    -webkit-transform:translatez(0);
     color: #FFF;
 }
 
